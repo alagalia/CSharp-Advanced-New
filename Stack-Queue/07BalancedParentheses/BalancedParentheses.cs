@@ -17,7 +17,11 @@
             if (parentheses.Length % 2 != 0 || parentheses.Length == 0 || allSame)
             {
                 result = "NO";
+<<<<<<< HEAD
             } 
+=======
+            }
+>>>>>>> remotes/C#NEW/master
             else
             {
                 Queue<char> queue = new Queue<char>();
@@ -33,11 +37,19 @@
                     {
                         stack.Push(parentheses[i]);
                     }
+<<<<<<< HEAD
                     else if (parentheses[i] == ' ' && (i % 2 == 0))
                     {
                         queue.Enqueue(' ');
                     }
                     else if (parentheses[i] == ' ' && (i % 2 != 0))
+=======
+                    else if (parentheses[1] == ' ' && (i % 2 == 0))
+                    {
+                        queue.Enqueue(' ');
+                    }
+                    else if (parentheses[1] == ' ' && (i % 2 != 0))
+>>>>>>> remotes/C#NEW/master
                     {
                         stack.Push(' ');
                     }
