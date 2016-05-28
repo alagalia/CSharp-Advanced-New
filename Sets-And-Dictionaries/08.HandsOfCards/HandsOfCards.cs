@@ -4,9 +4,9 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    class HandsOfCards
+    public class HandsOfCards
     {
-        static void Main()
+        public static void Main()
         {
             Dictionary<string, Dictionary<int, HashSet<int>>> handsInfo = new Dictionary<string, Dictionary<int, HashSet<int>>>();
 

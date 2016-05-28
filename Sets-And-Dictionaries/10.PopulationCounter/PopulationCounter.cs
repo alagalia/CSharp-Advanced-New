@@ -4,9 +4,9 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    class PopulationCounter
+    public class PopulationCounter
     {
-        static void Main()
+        public static void Main()
         {
             Dictionary<string, Dictionary<string, long>> info = new Dictionary<string, Dictionary<string, long>>();
             Dictionary<string, long> totalPopulation = new Dictionary<string, long>();

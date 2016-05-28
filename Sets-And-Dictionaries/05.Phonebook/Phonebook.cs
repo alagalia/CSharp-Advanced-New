@@ -4,9 +4,9 @@ namespace _05.Phonebook
     using System;
     using System.Collections.Generic;
 
-    class Phonebook
+    public class Phonebook
     {
-        static void Main()
+        public static void Main()
         {
             string line = Console.ReadLine();
             Dictionary<string, string> phoneBook = new Dictionary<string, string>();

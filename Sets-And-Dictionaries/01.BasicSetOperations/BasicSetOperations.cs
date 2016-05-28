@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
 
-    class BasicSetOperations
+    public class BasicSetOperations
     {
-        static void Main()
+        public static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             HashSet<string> userNames = new HashSet<string>();

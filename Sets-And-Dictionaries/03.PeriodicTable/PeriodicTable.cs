@@ -2,9 +2,9 @@
 {
     using System;
     using System.Collections.Generic;
-    class PeriodicTable
+    public class PeriodicTable
     {
-        static void Main()
+        public static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             SortedSet<string> elements = new SortedSet<string>();

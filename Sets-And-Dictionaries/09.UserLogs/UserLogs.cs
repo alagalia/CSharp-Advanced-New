@@ -4,9 +4,9 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    class UserLogs
+    public class UserLogs
     {
-        static void Main()
+        public static void Main()
         {
             SortedDictionary<string, Dictionary<string, int>> info = new SortedDictionary<string, Dictionary<string, int>>();
             while (true)

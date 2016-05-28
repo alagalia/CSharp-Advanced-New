@@ -4,9 +4,9 @@
     using System.Collections.Generic;
     using System.Text;
 
-    class LogsAggregator
+    public class LogsAggregator
     {
-        static void Main()
+        public static void Main()
         {
             SortedDictionary<string, int> nameDuration = new SortedDictionary<string, int>();
             Dictionary<string, SortedSet<string>> nameIps = new Dictionary<string, SortedSet<string>>();

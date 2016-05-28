@@ -4,9 +4,9 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    class LegendaryFarming
+    public class LegendaryFarming
     {
-        static void Main()
+        public static void Main()
         {
             string[] goodMaterial = { "shards", "fragments", "motes" };
             Dictionary<string, int> allGoodMaterials = new Dictionary<string, int>() 

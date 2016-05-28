@@ -4,9 +4,9 @@ namespace _07.FixEmails
     using System;
     using System.Collections.Generic;
 
-    class FixEmails
+    public class FixEmails
     {
-        static void Main()
+        public static void Main()
         {
             Dictionary<string, string> mailInfo = new Dictionary<string, string>();
 
