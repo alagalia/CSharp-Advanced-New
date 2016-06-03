@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
 
-    class CountSymbols
+    public class CountSymbols
     {
-        static void Main()
+        public static void Main()
         {
             string inputText = Console.ReadLine();
             SortedDictionary<char, int> charoccurance = new SortedDictionary<char, int>();

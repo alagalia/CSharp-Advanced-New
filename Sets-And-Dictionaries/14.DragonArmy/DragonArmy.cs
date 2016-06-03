@@ -4,9 +4,9 @@
     using System.Collections.Generic;
     using System.Linq;
 
-    class DragonArmy
+    public class DragonArmy
     {
-        static void Main()
+        public static void Main()
         {
             int n = int.Parse(Console.ReadLine());
             // <type, <name, dragon>> 

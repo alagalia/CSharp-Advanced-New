@@ -33,6 +33,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "14.DragonArmy", "14.DragonA
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17.LegoBlock", "17.LegoBlock\17.LegoBlock.csproj", "{2D109FE1-5E51-40BA-992A-39B2E5E9C09D}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16.TargetPractice", "16.TargetPractice\16.TargetPractice.csproj", "{9BD5D452-76AF-4447-B6FD-771F15CB896A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "18.RadioactiveMutantVampireBunnies", "18.RadioactiveMutantVampireBunnies\18.RadioactiveMutantVampireBunnies.csproj", "{F588FD36-C30E-4EC7-8103-D141EBA18F9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -99,6 +103,14 @@ Global
 		{2D109FE1-5E51-40BA-992A-39B2E5E9C09D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2D109FE1-5E51-40BA-992A-39B2E5E9C09D}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2D109FE1-5E51-40BA-992A-39B2E5E9C09D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9BD5D452-76AF-4447-B6FD-771F15CB896A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9BD5D452-76AF-4447-B6FD-771F15CB896A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9BD5D452-76AF-4447-B6FD-771F15CB896A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9BD5D452-76AF-4447-B6FD-771F15CB896A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F588FD36-C30E-4EC7-8103-D141EBA18F9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F588FD36-C30E-4EC7-8103-D141EBA18F9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F588FD36-C30E-4EC7-8103-D141EBA18F9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F588FD36-C30E-4EC7-8103-D141EBA18F9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

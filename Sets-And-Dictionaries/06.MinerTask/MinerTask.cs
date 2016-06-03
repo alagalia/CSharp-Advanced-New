@@ -2,9 +2,9 @@
 {
     using System;
     using System.Collections.Generic;
-    class MinerTask
+    public class MinerTask
     {
-        static void Main()
+        public static void Main()
         {
             Dictionary<string, int> mine = new Dictionary<string, int>();
             string resource = String.Empty;

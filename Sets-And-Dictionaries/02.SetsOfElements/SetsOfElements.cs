@@ -3,9 +3,9 @@
     using System;
     using System.Collections.Generic;
 
-    class SetsOfElements
+    public class SetsOfElements
     {
-        static void Main()
+        public static void Main()
         {
             string[] input = Console.ReadLine().Split();
             int n = int.Parse(input[0].Trim());
