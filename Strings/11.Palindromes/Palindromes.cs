@@ -20,7 +20,7 @@ namespace _11.Palindromes
             string line = Console.ReadLine();
             string[] words = Regex.Split(line, @"\W+");
 
-            List<string> sortedOutput = new List<string>();
+            SortedSet<string> sortedOutput = new SortedSet<string>();
             for (int i = 0; i < words.Length; i++)
             {
                 string reversed = Reverse(words[i]);
@@ -31,7 +31,6 @@ namespace _11.Palindromes
                 }
             }
 
-            sortedOutput.Sort();
             string result = "[" + string.Join(", ", sortedOutput) + "]";
             Console.WriteLine(result);
         }
