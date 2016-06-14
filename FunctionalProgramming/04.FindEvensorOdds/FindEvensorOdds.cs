@@ -2,47 +2,34 @@
 {
     using System;
     using System.Collections.Generic;
-    using System.Linq;
     public class FindEvensorOdds
     {
         public static void Main()
         {
-            Func<long, long, string, List<long>> findEvensorOdds = (startNum, endNum, str) =>
+            string[] input = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries);
+            long start = long.Parse(input[0]);
+            long end = long.Parse(input[1]);
+            string command = Console.ReadLine().Trim().ToLower();
+
+            List<long> resultOdd = new List<long>();
+            List<long> resultEven = new List<long>();
+
+            Func<long, bool> isOdd = i => i % 2 != 0;
+            for (long i = start; i <= end; i++)
+            {
+                if (isOdd(i))
                 {
-                    List<long> resultOdd = new List<long>();
-                    List<long> resultEven = new List<long>();
-                    for (long i = startNum; i <= endNum; i++)
-                    {
-                        if (i % 2 == 0)
-                        {
-                            resultEven.Add(i);
-                        }
-                        else
-                        {
-                            resultOdd.Add(i);
-                        }
-                    }
+                   resultOdd.Add(i); 
+                }
+                else
+                {
+                    resultEven.Add(i);
+                }
+            }
 
-                    if (str == "odd")
-                    {
-                        return resultOdd;
-                    }
+            List<long> result = command == "odd" ? resultOdd : resultEven;
 
-                    if (str == "even")
-                    {
-                        return resultEven;
-                    }
-
-                    return new List<long>();
-                };
-
-            long[] inputNums = Console.ReadLine().Split(new char[] { ' ' }, StringSplitOptions.RemoveEmptyEntries).Select(long.Parse).ToArray();
-            long start = inputNums[0];
-            long end = inputNums[1];
-            string command = Console.ReadLine();
-
-            List<long> result = findEvensorOdds(start, end, command);
-            Console.WriteLine(string.Join(", ", result));
+            Console.WriteLine(string.Join(" ", result));
         }
     }
 }
