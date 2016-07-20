@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCA8556B-05A1-4B41-B7E9-FDC7CC7B6716}</ProjectGuid>
+    <ProjectGuid>{342D1168-CFA0-49F4-B007-43277E3DD73D}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_04.JediDreams</RootNamespace>
-    <AssemblyName>04.JediDreams</AssemblyName>
+    <RootNamespace>_08.Events</RootNamespace>
+    <AssemblyName>08.Events</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="JediDreams.cs" />
+    <Compile Include="Events.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>

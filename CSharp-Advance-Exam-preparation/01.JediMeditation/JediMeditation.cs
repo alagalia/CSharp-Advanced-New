@@ -8,7 +8,7 @@ namespace _01.JediMeditation
 {
     using System.Runtime.InteropServices;
 
-    class Program
+    class JediMeditation
     {
         static void Main(string[] args)
         {

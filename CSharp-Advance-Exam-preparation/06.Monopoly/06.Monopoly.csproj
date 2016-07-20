@@ -4,11 +4,11 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{DCA8556B-05A1-4B41-B7E9-FDC7CC7B6716}</ProjectGuid>
+    <ProjectGuid>{1C76BCE4-C3B4-4542-8D6D-A41368B9A31E}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <AppDesignerFolder>Properties</AppDesignerFolder>
-    <RootNamespace>_04.JediDreams</RootNamespace>
-    <AssemblyName>04.JediDreams</AssemblyName>
+    <RootNamespace>_06.Monopoly</RootNamespace>
+    <AssemblyName>06.Monopoly</AssemblyName>
     <TargetFrameworkVersion>v4.5.2</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
@@ -43,7 +43,7 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="JediDreams.cs" />
+    <Compile Include="Monopoly.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
